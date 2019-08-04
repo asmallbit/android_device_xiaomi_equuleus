@@ -16,7 +16,10 @@ DEVICE_PATH := device/xiaomi/equuleus
 TARGET_OTA_ASSERT_DEVICE := equuleus
 
 # Display
+TARGET_HAS_HDR_DISPLAY := true
 TARGET_SCREEN_DENSITY := 440
+TARGET_USES_COLOR_METADATA := true
+TARGET_USES_DRM_PP := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := equuleus_defconfig
