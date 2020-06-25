@@ -1,11 +1,9 @@
+  
 # Camera
 persist.camera.sat.fallback.dist=45
 persist.camera.sat.fallback.dist.d=5
 persist.camera.sat.fallback.luxindex=310
 persist.camera.sat.fallback.lux.d=50
-
-# Display
-ro.surface_flinger.has_wide_color_display=true
 
 # FaceSense
 ro.face.ext_service.cam_id=5
