@@ -17,6 +17,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/equuleus/equuleus-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
+# Dynamic Thermal
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
