@@ -21,7 +21,7 @@ TARGET_USES_COLOR_METADATA := true
 TARGET_USES_DRM_PP := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := equuleus_defconfig
+KERNEL_DEFCONFIG := ../equuleus_defconfig
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
