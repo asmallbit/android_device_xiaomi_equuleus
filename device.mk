@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2019-2020 The LineageOS Project
-# Copyright (C) 2020 Paranoid Android
+# Copyright (C) 2020-2021 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -20,14 +20,6 @@ TARGET_SCREEN_WIDTH := 1080
 # Dynamic Thermal
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pa
-
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -81,6 +73,16 @@ PRODUCT_COPY_FILES += \
 
 TARGET_COMMON_QTI_COMPONENTS += \
     nq-nfc
+
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAEquuleusFrameworks \
+    AOSPAEquuleusSettings \
+    AOSPAEquuleusSystemUI \
+    EquuleusFrameworks \
+    EquuleusSettings \
+    EquuleusSystemUI \
+    NoCutoutOverlay
 
 # Secure element
 PRODUCT_PACKAGES += \
