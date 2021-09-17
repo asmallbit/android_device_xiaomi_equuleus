@@ -6,3 +6,10 @@ persist.camera.sat.fallback.lux.d=50
 
 # Display
 ro.surface_flinger.has_wide_color_display=true
+
+# UNOFFICIAL stuff:>
+ro.ppui.device_name=Xiaomi Mi 8 Pro
+ro.ppui.version=3.9
+ro.ppui.version_code=Eternal
+ro.ppui.is_official=false
+ro.ppui.maintainer_name=jwhan
