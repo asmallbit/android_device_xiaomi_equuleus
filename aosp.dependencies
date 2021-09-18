@@ -1,0 +1,26 @@
+[
+   {
+      "repository": "device_xiaomi_dipper-common",
+      "target_path": "device/xiaomi/sdm845-common",
+      "branch": "eleven",
+      "remote": "pixelplusui-devices"
+   },
+   {
+      "repository":  "asmallbit/android_kernel_xiaomi_sdm845",
+      "target_path": "kernel/xiaomi/sdm845",
+      "branch": "11",
+      "remote": "github"
+   },
+   {
+      "repository":  "jwhan99/proprietary_vendor_xiaomi",
+      "target_path": "vendor/xiaomi",
+      "branch": "eleven",
+      "remote": "gitlab"
+   },
+   {
+      "repository": "vendor_MiuiCamera",
+      "target_path": "vendor/MiuiCamera",
+      "branch": "eleven",
+      "remote": "pixelplusui-devices"
+   }
+]
