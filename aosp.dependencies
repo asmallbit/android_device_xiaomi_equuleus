@@ -12,10 +12,16 @@
       "remote": "github"
    },
    {
-      "repository":  "jwhan99/proprietary_vendor_xiaomi",
-      "target_path": "vendor/xiaomi",
+      "repository":  "vendor-blobs/vendor_xiaomi_sdm845-common",
+      "target_path": "vendor/xiaomi/sdm845-common",
       "branch": "eleven",
-      "remote": "gitlab"
+      "remote": "pixel-gitlab-self-hosted"
+   },
+   {
+      "repository":  "asmallbit/android_vendor_xiaomi_equuleus",
+      "target_path": "vendor/xiaomi/equuleus",
+      "branch": "lineage-18.1",
+      "remote": "github"
    },
    {
       "repository": "vendor_MiuiCamera",
