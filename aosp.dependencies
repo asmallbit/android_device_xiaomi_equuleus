@@ -1,9 +1,9 @@
 [
    {
-      "repository": "device_xiaomi_dipper-common",
+      "repository": "asmallbit/device_xiaomi_dipper-common",
       "target_path": "device/xiaomi/sdm845-common",
       "branch": "eleven",
-      "remote": "pixelplusui-devices"
+      "remote": "github"
    },
    {
       "repository":  "asmallbit/android_kernel_xiaomi_sdm845",
