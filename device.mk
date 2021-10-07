@@ -79,7 +79,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.xiaomi_sdm845
 
 # MiuiCamera
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+# $(call inherit-product, vendor/MiuiCamera/config.mk)
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
 
 # NFC
 PRODUCT_PACKAGES += \
