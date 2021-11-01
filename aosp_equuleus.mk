@@ -6,10 +6,9 @@
 
 $(call inherit-product, device/xiaomi/equuleus/device.mk)
 
-# Inherit some common PixelPlusUI stuff.
+# Inherit some common PixelExtended stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # UNOFFICAL STUFF
 PEX_BUILD_TYE := UNOFFICIAL
@@ -19,7 +18,6 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_equuleus
