@@ -26,10 +26,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 12 SP1A.211105.003 7757856 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001.A1 7641976 release-keys" \
     PRODUCT_NAME="equuleus"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
