@@ -60,7 +60,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor \
     libkeymaster_portable.vendor \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sdm845
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sdm845 \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # GPS
 PRODUCT_COPY_FILES += \
