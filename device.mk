@@ -75,6 +75,9 @@ PRODUCT_PACKAGES += \
     libkeymaster_portable.vendor \
     libudfpshandler
 
+# Gcam
+$(call inherit-product, vendor/Gcam/config.mk)
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
