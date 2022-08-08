@@ -11,6 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 PRODUCT_COMPRESSED_APEX := false
 
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/equuleus/equuleus-vendor.mk)
 
